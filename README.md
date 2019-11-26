@@ -4,7 +4,7 @@ This text-based calculator can either be started straight away, or by adding the
 
 Syntax for the program is:
 
-register operator register
+[register] [operator] [register]
 
 Example:
 
