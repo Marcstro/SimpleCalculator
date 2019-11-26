@@ -12,10 +12,15 @@ Calculating other registers is done through lazy evaluation
 Example:
   
 A add 5
+
 B add 2
+
 A multiply B
+
 A add 5
+
 print A
+
 
 Results in:
 20
