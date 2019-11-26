@@ -67,6 +67,8 @@ public class SimpleCalculator {
         }
 
         if(parts[2].matches("[a-zA-Z]+")){
+            //if the second registered value,
+            //this calculation is to be done lazily, when the print function is called
             //the two lines below are called to initiate the values
             //the declaration happens later, as lazy evaluation
             getValueOf(parts[0]);
